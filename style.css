@@ -69,12 +69,21 @@ body{
 }
 
 h1{
+    display: flex;
     text-align: center;
     font-family: 'norsebold', sans-serif;
     font-size: 90px;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.5);
     margin: 20vh 0 50vh 0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 120;
+    width: 100;
 }
 
 .left footer{
