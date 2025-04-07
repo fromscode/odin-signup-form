@@ -109,4 +109,12 @@ header {
 
 main {
     background-color: #fff;
+    padding: 10px 0 30px 7vb;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+main h2 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin-bottom: 30px;
 }
