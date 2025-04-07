@@ -88,6 +88,9 @@ a {
     color: #fff;
 }
 
+a:hover {
+    opacity: 0.8;
+}
 
 /* below are css styles for right hand side */
 
@@ -97,10 +100,9 @@ a {
 
 header {
     width: 80%;
-    padding: 10vb 0 30px 7vb;
-    /* font-weight: 500; */
-    font-size: 1.2rem;
-    line-height: 1.5rem;
+    padding: 10vh 0 30px 7vb;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
 }
 
 .callout {
@@ -117,4 +119,37 @@ main h2 {
     font-size: 1.5rem;
     font-weight: lighter;
     margin-bottom: 30px;
+}
+
+.right footer {
+    width: 80%;
+    padding: 7vh 0 30px 7vb;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.right footer a {
+    color: #596D48;
+    text-decoration: none;
+}
+
+.login {
+    margin-top: 3vh;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #596D48;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    width: 30vb;
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
 }
