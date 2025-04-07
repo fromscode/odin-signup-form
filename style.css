@@ -166,3 +166,29 @@ button:hover {
     opacity: 0.8;
     cursor: pointer;
 }
+
+/* below are styles for the form */
+
+.right form {
+    width: 80%;
+    display: flex;
+    font-size: 0.8rem;
+    gap: 100px;
+    letter-spacing: 2px;
+}
+
+form div {
+    width: 80%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    flex: 1, 1, 70%;
+    border: 1px solid #000;
+    opacity: 0.2;
+    border-radius: 5px;
+}
