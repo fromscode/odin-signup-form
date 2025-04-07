@@ -49,14 +49,16 @@
 
 }
 
-body{
-    background-color: antiquewhite;
+body{   
+    background-color: whitesmoke;
     display: flex;
+    font-family: Verdana, Helvetica, Tahoma, sans-serif;
 }
 
 .left {
+    flex: 0 0 35%;
     height: 100vh;
-    width: 35%;
+    width: 85vb;
     background-image: url('photos/halie-west-25xggax4bSA-unsplash.jpg');
     background-clip: border-box;
     background-size: cover; 
@@ -84,4 +86,22 @@ h1{
 
 a {
     color: #fff;
+}
+
+
+/* below are css styles for right hand side */
+
+.right {
+    flex: 1;
+}
+
+header {
+    width: 80%;
+    padding: 10vb 0 30px 7vb;
+    /* font-weight: 500; */
+    font-size: 20px;
+}
+
+main {
+    background-color: #fff;
 }
