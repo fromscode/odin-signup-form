@@ -191,4 +191,16 @@ input {
     flex: 1, 1, 70%;
     border: 1px solid rgb(0, 0, 0, 0.2);
     border-radius: 5px;
+    padding: 0;
+    outline: none;
+}
+
+
+input:focus {
+    border: 2px solid #002fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+input:invalid {
+    border: 2px solid #ff0000;
 }
