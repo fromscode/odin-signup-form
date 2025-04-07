@@ -99,7 +99,12 @@ header {
     width: 80%;
     padding: 10vb 0 30px 7vb;
     /* font-weight: 500; */
-    font-size: 20px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.callout {
+    margin-top: 5vb;
 }
 
 main {
